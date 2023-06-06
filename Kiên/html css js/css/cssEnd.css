@@ -1,0 +1,63 @@
+body{
+    min-width: 1025px
+}
+
+header{
+    min-width: 1025px;
+    width: 100%;
+    height: auto;
+}
+
+#head_one{
+    display:flex;
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient( 90deg ,#3effd2, #00aaff);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#head_one p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head_town {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 7px black;
+}
+
+.loGo label a img{
+    width:70px;
+    margin-left: 20px;
+}
+
+.loGo_Menu_Find{
+    display: flex;
+}
+
+.Menu , .Bao_Menu {
+    width: 100%;
+}
+
+.list_Menu{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.list_Menu li{
+padding: 10px;
+}
+
+.list_Menu li a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
